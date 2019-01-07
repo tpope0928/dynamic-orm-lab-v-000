@@ -9,6 +9,6 @@ class Student < InteractiveRecord
   end
   
   def self.column_name
-    
+    DB[:conn]
 
 end
