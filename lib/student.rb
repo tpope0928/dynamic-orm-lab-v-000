@@ -9,6 +9,8 @@ class Student < InteractiveRecord
   end
   
   def self.column_name
-    DB[:conn].results_as_hash
+    DB[:conn].results_as_hash = true
+    
+    
 
 end
