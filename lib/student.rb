@@ -9,6 +9,6 @@ class Student < InteractiveRecord
   end
   
   def self.find_by
-  
+  end
 
 end
